@@ -1,0 +1,9 @@
+Merlin's magic URL
+------------------
+
+Here are the URL to get the princess room temperature on a specific timestamp:
+https://emoncms.fr/feed/value.json?id=77&time=1672527600
+
+- Use the date command to get the timestamp for this date: Wednesday 6 September 2023 at midnight.
+- Then, use this timestamp in the url passed to the curl command to get the temperature and save it in the drawer.
+

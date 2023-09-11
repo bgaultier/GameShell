@@ -1,0 +1,31 @@
+Mission goal
+============
+
+You encounter the princess, who appears to be in a foul mood. She proceeds to explain that her bedroom was excessively hot last night and the king remains skeptical of her claims.
+She insists that a magic book in Merlin's office holds records detailing the historical temperature data within the castle, which could substantiate her complaint.
+Read this book and save the princess room temperature (at this specific date written in the magic book) in a file called "temperature.txt", in the drawer...
+
+
+Secondary objective
+-------------------
+
+Learn how to convert a date to a timestamp using the date command.
+
+
+Useful commands
+===============
+
+date
+  Shows the current time.
+
+date +%s
+  Shows the current time as a timestamp.
+
+date -jf "%Y-%m-%d %H:%M:%S" "1970-01-01 00:00:00" +%s
+  Convert the date to timestamps
+
+curl http://example.com/file.txt
+  Download and print the contents of a URL
+
+curl http://example.com/file.txt --output path/to/file
+  Download the contents of a URL to a file
